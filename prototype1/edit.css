@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(white.jpg);
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.profile {
+  background-image: url(white3.avif);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.profile h2 {
+  margin: 0;
+  color: #333;
+}
+
+.profile p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+.profile12 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;   /* bikin bulat */
+  margin-right: 20px;
+  object-fit: cover;    /* isi penuh area bulat */
+  overflow: hidden;     /* potong bagian luar */
+}
